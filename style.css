@@ -86,7 +86,16 @@ section p, section ul {
 section ul li {
     margin-bottom: 10px;
 }
-
+.qrcode {
+    max-width: 200px; /* 限制二维码大小 */
+    margin-top: 10px;
+    border: 2px solid #ddd; /* 添加边框 */
+    border-radius: 8px; /* 圆角效果 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* 居中显示 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
 footer {
     text-align: center;
     padding: 15px 0;
